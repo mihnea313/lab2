@@ -4,9 +4,9 @@
 int function(int x){
     if(x<=0)    //conditie necesara pentru a nu mai functiona in bucla(la infinit)
         return x;
-	x=x-2;
-	x=function(x);
-	return x;
+    x=x-2;
+    x=function(x);
+    return x;
 }
 
 int main(){
